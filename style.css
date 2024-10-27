@@ -142,12 +142,17 @@ main {
 
     header{
         margin-top: 15px;
-        width: auto;
+        font-size: 13px;
+        
 
+    }
+
+    header  p{
+        font-size: 10px;
     }
     .cards {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 1rem;
     }
 
     .card:nth-child(1),
@@ -157,5 +162,6 @@ main {
         grid-column: 1;
         grid-row: auto;
         width: auto;
+        gap: 10px;
     }
 }
